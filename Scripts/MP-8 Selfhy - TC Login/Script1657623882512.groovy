@@ -18,3 +18,21 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/MP-8 Selfhy - TC Login.feature')
+
+Mobile.startApplication('C:\\Users\\095048\\Katalon Studio\\FinalProject-Mobile\\APK\\app-debug.apk', true)
+
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText - Username'), 'selfhyginting', 0)
+
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText'), 'Password!', 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button - Login'), 0)
+
+if (true) {
+    Mobile.waitForElementNotPresent(findTestObject('Object Repository/Login/android.widget.TextView - Unfortunately, Bank App Demo has stopped'), 
+        0)
+} else {
+    Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button - OK'), 0)
+}
+
+Mobile.closeApplication()
+

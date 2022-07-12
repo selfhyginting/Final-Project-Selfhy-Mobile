@@ -18,3 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/MP-7 Selfhy - TC Create Profile.feature')
+
+Mobile.startApplication('C:\\Users\\095048\\Katalon Studio\\FinalProject-Mobile\\APK\\app-debug.apk', true)
+
+Mobile.getText(findTestObject('Object Repository/Create Profile/android.widget.TextView - Dont have a profile'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Create Profile/android.widget.Button - Create a Profile'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Create Profile/android.widget.EditText - First Name'), 'selfhy', 0)
+
+Mobile.setText(findTestObject('Object Repository/Create Profile/android.widget.EditText - Last Name'), 'ginting', 0)
+
+Mobile.setText(findTestObject('Object Repository/Create Profile/android.widget.EditText - Country'), 'Indonesia', 0)
+
+Mobile.setText(findTestObject('Object Repository/Create Profile/android.widget.EditText - Username'), 'selfhyginting', 0)
+
+Mobile.setText(findTestObject('Object Repository/Create Profile/android.widget.EditText'), 'Password!', 0)
+
+Mobile.setText(findTestObject('Object Repository/Create Profile/android.widget.EditText (1)'), 'Password!', 0)
+
+Mobile.tap(findTestObject('Object Repository/Create Profile/android.widget.Button - Create Profile'), 0)
+
+if (true) {
+    Mobile.waitForElementNotPresent(findTestObject('Object Repository/Create Profile/android.widget.TextView - Unfortunately, Bank App Demo has stopped'), 
+        0)
+} else {
+    Mobile.tap(findTestObject('Object Repository/Create Profile/android.widget.Button - OK'), 0)
+}
+
+Mobile.closeApplication()
+
