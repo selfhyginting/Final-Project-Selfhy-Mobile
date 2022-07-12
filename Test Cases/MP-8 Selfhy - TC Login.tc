@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Selfhy - TC Login
+Description: </description>
+   <name>MP-8 Selfhy - TC Login</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10030&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0009j:&quot;},&quot;status&quot;:{&quot;id&quot;:3,&quot;description&quot;:&quot;This issue is being actively worked on at the moment by the assignee.&quot;,&quot;iconUrl&quot;:&quot;https://timbelajar2.atlassian.net/images/icons/statuses/inprogress.png&quot;,&quot;self&quot;:&quot;https://timbelajar2.atlassian.net/rest/api/2/status/3&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://timbelajar2.atlassian.net/rest/api/2/project/10002&quot;,&quot;key&quot;:&quot;MP&quot;,&quot;id&quot;:10002,&quot;name&quot;:&quot;Mobile Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Selfhy - TC Login&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;selfhyginting.iklc@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Selfhy Ginting&quot;,&quot;self&quot;:&quot;https://timbelajar2.atlassian.net/rest/api/2/user?accountId\u003d62c4eb88a7de1e7c7c2db059&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;selfhyginting.iklc@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Selfhy Ginting&quot;,&quot;self&quot;:&quot;https://timbelajar2.atlassian.net/rest/api/2/user?accountId\u003d62c4eb88a7de1e7c7c2db059&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://timbelajar2.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://timbelajar2.atlassian.net/rest/api/2/issue/MP-8/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://timbelajar2.atlassian.net/rest/api/2/issue/10044&quot;,&quot;key&quot;:&quot;MP-8&quot;,&quot;id&quot;:10044}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>258400a7-6f7b-4e66-b345-1a606eeaa045</testCaseGuid>
+</TestCaseEntity>

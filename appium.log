@@ -1,24 +1,24 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 61160
+[35m[Appium][39m   port: 61750
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\095048\AppData\Local\Temp\\Katalon\Appium\Temp1657617958745
-[35m[Appium][39m   chromedriverPort: 61161
+[35m[Appium][39m   tmpDir: C:\Users\095048\AppData\Local\Temp\\Katalon\Appium\Temp1657618922641
+[35m[Appium][39m   chromedriverPort: 61751
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 61161
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:61160
+[35m[Appium][39m   chromedriverPort: 61751
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:61750
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"6.0","autoGrantPermissions":true,"platformName":"Android","udid":"192.168.229.101:5555","deviceName":" Google Nexus 5X (Android 6.0)","platform":"ANDROID","systemPort":8208},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:deviceName":" Google Nexus 5X (Android 6.0)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"6.0","appium:systemPort":8208,"appium:udid":"192.168.229.101:5555"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"6.0","autoGrantPermissions":true,"platformName":"Android","udid":"192.168.229.101:5555","deviceName":" Google Nexus 5X (Android 6.0)","platform":"ANDROID","systemPort":8210},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:deviceName":" Google Nexus 5X (Android 6.0)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"6.0","appium:systemPort":8210,"appium:udid":"192.168.229.101:5555"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
@@ -51,7 +51,7 @@
 [35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 1d698edf-d422-48f2-9cbf-8c7205d041b6
+[35m[BaseDriver][39m Session created with session id: 4a5540ac-7cdf-478e-8f2f-6523f4fab04e
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\095048\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/095048/.katalon/tools/android_sdk/build-tools/29.0.3
@@ -60,6 +60,7 @@
 [35m[AndroidDriver][39m Using device: 192.168.229.101:5555
 [35m[ADB][39m Using 'adb.exe' from 'C:\Users\095048\.katalon\tools\android_sdk\platform-tools\adb.exe'
 [35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[AndroidDriver][39m Granting permissions SET_ANIMATION_SCALE,CHANGE_CONFIGURATION,ACCESS_FINE_LOCATION to 'io.appium.settings'
 [35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\095048\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
 [35m[ADB][39m 'C:\Users\095048\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
 [35m[ADB][39m 'C:\Users\095048\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
@@ -70,51 +71,62 @@
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 1d698edf-d422-48f2-9cbf-8c7205d041b6 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11833 ms - 1140[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 4a5540ac-7cdf-478e-8f2f-6523f4fab04e added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16372 ms - 1140[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6 [39m[32m200[39m [90m7 ms - 1094[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e [39m[32m200[39m [90m14 ms - 1094[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6 [39m[32m200[39m [90m6 ms - 1094[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e [39m[32m200[39m [90m11 ms - 1094[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/timeouts [39m[32m200[39m [90m5 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/screenshot [39m[32m200[39m [90m494 ms - 112440[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/screenshot [39m[32m200[39m [90m538 ms - 111996[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/window/rect [39m[32m200[39m [90m21 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/appium/device/system_bars[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/appium/device/system_bars [39m[32m200[39m [90m99 ms - 151[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/appium/device/system_bars [39m[32m200[39m [90m79 ms - 151[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.example.mikebanks.bankscorpfinancial"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/appium/device/activate_app [39m[32m200[39m [90m541 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/appium/device/activate_app [39m[32m200[39m [90m544 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (1d698edf)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId b91a3da8-222f-42f6-9922-c9e1168164c9 with 1d698edf-d422-48f2-9cbf-8c7205d041b6
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/source [39m[32m200[39m [90m963 ms - 621[39m
+[35m[W3C (4a5540ac)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId bb714bbd-3158-41cb-941b-30f281ecaee7 with 4a5540ac-7cdf-478e-8f2f-6523f4fab04e
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/source [39m[32m200[39m [90m1804 ms - 621[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/1d698edf-d422-48f2-9cbf-8c7205d041b6/screenshot [39m[32m200[39m [90m568 ms - 92308[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e/screenshot [39m[32m200[39m [90m563 ms - 91322[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 4a5540ac-7cdf-478e-8f2f-6523f4fab04e from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.android.settings
+[35m[UiAutomator2][39m Unable to force stop app: Could not find a connected Android device in 20298ms.
+[35m[ADB][39m Error sending command, reconnecting device and retrying: forward,--remove,tcp:8210
+[35m[UiAutomator2][39m Unable to remove system port forward: Could not find a connected Android device in 20269ms.
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/4a5540ac-7cdf-478e-8f2f-6523f4fab04e [39m[32m200[39m [90m42735 ms - 14[39m
 [35m[HTTP][39m [90m[39m
