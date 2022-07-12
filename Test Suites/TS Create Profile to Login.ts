@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS Create Profile to Login DDT</name>
+   <name>TS Create Profile to Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -43,7 +43,7 @@
       <guid>cc156bcd-4912-416e-bafa-3dbf8c4b37fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MP-8 Selfhy - TC Login</testCaseId>
+      <testCaseId>Test Cases/Login/MP-8 Selfhy - TC Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>14c35dbe-80d0-414a-a411-73fdc62518bf</id>
