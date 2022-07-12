@@ -16,4 +16,30 @@ Description: </description>
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>195abfe4-2776-4d2e-83e2-3eb27401a124</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38fccaed-dcf5-41d1-af7d-ed50c6d8b9a6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f49ed300-a8e8-422a-81ad-ba204addb484</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38fccaed-dcf5-41d1-af7d-ed50c6d8b9a6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f49ed300-a8e8-422a-81ad-ba204addb484</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

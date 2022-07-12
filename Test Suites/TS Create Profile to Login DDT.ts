@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS Create Profile to Login DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>1b23d7fa-f2fc-413e-beaf-d563ca014f4c</testSuiteGuid>
+   <testCaseLink>
+      <guid>6df20fb4-081e-4b12-82e6-e9cb4f570503</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MP-7 Selfhy - TC Create Profile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>397f6a45-3d26-47f6-b6d5-e68eb3770304</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_User</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>397f6a45-3d26-47f6-b6d5-e68eb3770304</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>38fccaed-dcf5-41d1-af7d-ed50c6d8b9a6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>397f6a45-3d26-47f6-b6d5-e68eb3770304</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>f49ed300-a8e8-422a-81ad-ba204addb484</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cc156bcd-4912-416e-bafa-3dbf8c4b37fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MP-8 Selfhy - TC Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>14c35dbe-80d0-414a-a411-73fdc62518bf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_User</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a5d0029b-306b-4513-a9bf-4fdc00bbabc0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b5ddbf96-a110-4d48-969b-fa1e90fbcde7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
