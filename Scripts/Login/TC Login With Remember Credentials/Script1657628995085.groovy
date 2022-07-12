@@ -27,7 +27,10 @@ Mobile.tap(findTestObject('Login/android.widget.CheckBox - Remember Credentials'
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button - Login'), 0)
 
-if (true) {
+WebUI.verifyElementNotPresent(findTestObject('Create Profile/android.widget.TextView - Unfortunately, Bank App Demo has stopped'), 
+    0)
+
+if (false) {
     Mobile.waitForElementNotPresent(findTestObject('Object Repository/Login/android.widget.TextView - Unfortunately, Bank App Demo has stopped'), 
         0)
 } else {

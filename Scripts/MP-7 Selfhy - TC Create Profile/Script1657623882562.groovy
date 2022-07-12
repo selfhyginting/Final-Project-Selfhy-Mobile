@@ -39,7 +39,10 @@ Mobile.setText(findTestObject('Object Repository/Create Profile/android.widget.E
 
 Mobile.tap(findTestObject('Object Repository/Create Profile/android.widget.Button - Create Profile'), 0)
 
-if (true) {
+WebUI.verifyElementNotPresent(findTestObject('Create Profile/android.widget.TextView - Unfortunately, Bank App Demo has stopped'), 
+    0)
+
+if (false) {
     Mobile.waitForElementNotPresent(findTestObject('Object Repository/Create Profile/android.widget.TextView - Unfortunately, Bank App Demo has stopped'), 
         0)
 } else {
